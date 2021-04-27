@@ -28,6 +28,12 @@ describe('Auth', () => {
         LoginPage.clickSubmitButton();
         LoginPage.errorToastAppeared();
     });
+
+    it('login input is required', () => {
+        LoginPage.setLogin('example');
+        LoginPage.emptyLoginInput();
+        LoginPage.loginRequiredError();
+    });
 });
 
 

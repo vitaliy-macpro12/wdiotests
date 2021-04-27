@@ -1,0 +1,111 @@
+{
+  "4e86612c362769fdc7e4093412591d33" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2a005911f44f60a3",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"/profile/\"\n                Received: \"https://localcoding.us/user/login\"",
+      "time" : {
+        "start" : 1619236495126,
+        "stop" : 1619236507459,
+        "duration" : 12333
+      }
+    }, {
+      "uid" : "aff59916d642d9df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619233896468,
+        "stop" : 1619233900062,
+        "duration" : 3594
+      }
+    } ]
+  },
+  "273ae144b803ba557b83e43273b27f19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "84f0b166f6482b71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236507459,
+        "stop" : 1619236508526,
+        "duration" : 1067
+      }
+    }, {
+      "uid" : "1aaf3568e599ddcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619233900062,
+        "stop" : 1619233900661,
+        "duration" : 599
+      }
+    } ]
+  },
+  "16f5de5dba90c2bfe7fcbb7f7b7f70fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fe5d0124b63b3751",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236510266,
+        "stop" : 1619236511301,
+        "duration" : 1035
+      }
+    }, {
+      "uid" : "1fba1b3f02cd2463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619233902162,
+        "stop" : 1619233903013,
+        "duration" : 851
+      }
+    } ]
+  },
+  "21cfe642306d90a395bf3628fdb004f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c0c7714a626b2019",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236508526,
+        "stop" : 1619236510266,
+        "duration" : 1740
+      }
+    }, {
+      "uid" : "12005effdb4fa9ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619233900661,
+        "stop" : 1619233902161,
+        "duration" : 1500
+      }
+    } ]
+  }
+}
