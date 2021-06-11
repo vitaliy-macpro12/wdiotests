@@ -1,0 +1,41 @@
+[ {
+  "uid" : "84f0b166f6482b71",
+  "name" : "submit button is disabled if login and password are absent",
+  "time" : {
+    "start" : 1619236507459,
+    "stop" : 1619236508526,
+    "duration" : 1067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a005911f44f60a3",
+  "name" : "user logs in with valid data",
+  "time" : {
+    "start" : 1619236495126,
+    "stop" : 1619236507459,
+    "duration" : 12333
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0c7714a626b2019",
+  "name" : "fails if invalid data provided",
+  "time" : {
+    "start" : 1619236508526,
+    "stop" : 1619236510266,
+    "duration" : 1740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe5d0124b63b3751",
+  "name" : "login input is required",
+  "time" : {
+    "start" : 1619236510266,
+    "stop" : 1619236511301,
+    "duration" : 1035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

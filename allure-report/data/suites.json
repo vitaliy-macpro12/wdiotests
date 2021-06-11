@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Auth",
+    "children" : [ {
+      "name" : "user logs in with valid data",
+      "uid" : "2a005911f44f60a3",
+      "parentUid" : "b872de12187d782cdfbf86b0ea1a225c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1619236495126,
+        "stop" : 1619236507459,
+        "duration" : 12333
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "submit button is disabled if login and password are absent",
+      "uid" : "84f0b166f6482b71",
+      "parentUid" : "b872de12187d782cdfbf86b0ea1a225c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236507459,
+        "stop" : 1619236508526,
+        "duration" : 1067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "fails if invalid data provided",
+      "uid" : "c0c7714a626b2019",
+      "parentUid" : "b872de12187d782cdfbf86b0ea1a225c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236508526,
+        "stop" : 1619236510266,
+        "duration" : 1740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "login input is required",
+      "uid" : "fe5d0124b63b3751",
+      "parentUid" : "b872de12187d782cdfbf86b0ea1a225c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236510266,
+        "stop" : 1619236511301,
+        "duration" : 1035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    } ],
+    "uid" : "b872de12187d782cdfbf86b0ea1a225c"
+  } ]
+}

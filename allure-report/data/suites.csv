@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 23 20:55:08 PDT 2021","Fri Apr 23 20:55:10 PDT 2021","1740","","Auth","","Auth","fails if invalid data provided","fails if invalid data provided",""
+"passed","Fri Apr 23 20:55:10 PDT 2021","Fri Apr 23 20:55:11 PDT 2021","1035","","Auth","","Auth","login input is required","login input is required",""
+"passed","Fri Apr 23 20:55:07 PDT 2021","Fri Apr 23 20:55:08 PDT 2021","1067","","Auth","","Auth","submit button is disabled if login and password are absent","submit button is disabled if login and password are absent",""
+"failed","Fri Apr 23 20:54:55 PDT 2021","Fri Apr 23 20:55:07 PDT 2021","12333","","Auth","","Auth","user logs in with valid data","user logs in with valid data",""

@@ -1,0 +1,56 @@
+{
+  "uid" : "2f8e5a4ff64627d5",
+  "name" : "submit button is disabled if login and password are absent",
+  "fullName" : "Auth.submit button is disabled if login and password are absent",
+  "historyId" : "273ae144b803ba557b83e43273b27f19",
+  "time" : {
+    "start" : 1619235811567,
+    "stop" : 1619235812311,
+    "duration" : 744
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit button is disabled if login and password are absent"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f8e5a4ff64627d5.json",
+  "parameterValues" : [ "Chrome-90.0.4430.85" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "8a4990c5c1492a0d",
+  "name" : "login input is required",
+  "fullName" : "Auth.login input is required",
+  "historyId" : "16f5de5dba90c2bfe7fcbb7f7b7f70fd",
+  "time" : {
+    "start" : 1619235813911,
+    "stop" : 1619235814907,
+    "duration" : 996
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "login input is required"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a4990c5c1492a0d.json",
+  "parameterValues" : [ "Chrome-90.0.4430.85" ]
+}

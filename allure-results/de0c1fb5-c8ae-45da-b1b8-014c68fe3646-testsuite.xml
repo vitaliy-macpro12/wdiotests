@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620100041697' stop='1620100047269'>
+    <name>Auth</name>
+    <title>Auth</title>
+    <test-cases>
+        <test-case start='1620100041697' status='passed' stop='1620100043770'>
+            <name>user logs in with valid data</name>
+            <title>user logs in with valid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620100043771' status='passed' stop='1620100044578'>
+            <name>submit button is disabled if login and password are absent</name>
+            <title>submit button is disabled if login and password are absent</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620100044579' status='passed' stop='1620100046270'>
+            <name>fails if invalid data provided</name>
+            <title>fails if invalid data provided</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620100046271' status='broken' stop='1620100047267'>
+            <name>login input is required</name>
+            <title>login input is required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.loginValidationError.getText is not a function</message>
+                <stack-trace>TypeError: this.loginValidationError.getText is not a function
+                    at LoginPage.loginRequiredError (/Users/vitaliylevytskyi/WebstormProjects/wdiotests/test/pageobjects/login.page.js:40:49)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at Context.&lt;anonymous> (/Users/vitaliylevytskyi/WebstormProjects/wdiotests/test/specs/example.e2e.js:35:9)
+                    at Context.executeAsync (/Users/vitaliylevytskyi/WebstormProjects/wdiotests/node_modules/@wdio/utils/build/shim.js:137:16)
+                    at Context.exports.testFrameworkFnWrapper (/Users/vitaliylevytskyi/WebstormProjects/wdiotests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:51:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

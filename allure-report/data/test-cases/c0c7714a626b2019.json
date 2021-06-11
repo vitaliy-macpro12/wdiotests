@@ -1,0 +1,85 @@
+{
+  "uid" : "c0c7714a626b2019",
+  "name" : "fails if invalid data provided",
+  "fullName" : "Auth.fails if invalid data provided",
+  "historyId" : "21cfe642306d90a395bf3628fdb004f5",
+  "time" : {
+    "start" : 1619236508526,
+    "stop" : 1619236510266,
+    "duration" : 1740
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails if invalid data provided"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e9069508b839e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235812311,
+        "stop" : 1619235813911,
+        "duration" : 1600
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "12005effdb4fa9ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619233900661,
+          "stop" : 1619233902161,
+          "duration" : 1500
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c0c7714a626b2019.json",
+  "parameterValues" : [ "Chrome-90.0.4430.85" ]
+}
